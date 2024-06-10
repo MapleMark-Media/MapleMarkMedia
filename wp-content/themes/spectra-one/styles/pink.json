@@ -1,0 +1,114 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "title": "Pink",
+    "settings": {
+      "color": {
+        "palette": [
+          {
+            "name": "Primary",
+            "color": "#D917B2",
+            "slug": "primary"
+          },
+          {
+            "name": "Secondary",
+            "color": "#E036BE",
+            "slug": "secondary"
+          },
+          {
+            "name": "Heading",
+            "color": "#1F2937",
+            "slug": "heading"
+          },
+          {
+            "name": "Body",
+            "color": "#4B5563",
+            "slug": "body"
+          },
+          {
+            "name": "Background",
+            "color": "#FFFFFF",
+            "slug": "background"
+          },
+          {
+            "name": "Tertiary",
+            "color": "#FAEFFC",
+            "slug": "tertiary"
+          },
+          {
+            "name": "Quaternary",
+            "color": "#EFF9FC",
+            "slug": "quaternary"
+          },
+          {
+            "name": "Surface",
+            "color": "#FBF9FA",
+            "slug": "surface"
+          },
+          {
+            "name": "Foreground",
+            "color": "#D917B3",
+            "slug": "foreground"
+          },
+          {
+            "name": "Outline",
+            "color": "#F1E4EA",
+            "slug": "outline"
+          },
+          {
+            "name": "Neutral",
+            "color": "#6E7787",
+            "slug": "neutral"
+          },
+          {
+            "name": "Transparent",
+            "color": "transparent",
+            "slug": "transparent"
+          },
+          {
+            "name": "Current Color",
+            "color": "currentColor",
+            "slug": "currentColor"
+          },
+          {
+            "name": "Inherit",
+            "color": "inherit",
+            "slug": "inherit"
+          }
+        ],
+        "gradients": [
+          {
+            "slug": "primary",
+            "gradient": "linear-gradient(286.83deg, #5603C0 -1.55%, #F30DC1 100%)",
+            "name": "Primary"
+          }
+        ],
+        "duotone": [
+          {
+            "colors": [
+              "#D917B2",
+              "#D917B2"
+            ],
+            "slug": "primary",
+            "name": "Primary"
+          },
+          {
+            "colors": [
+              "#1F2937",
+              "#1F2937"
+            ],
+            "slug": "secondary",
+            "name": "Secondary"
+          },
+          {
+            "colors": [
+              "#FFFFFF",
+              "#FFFFFF"
+            ],
+            "slug": "tertiary",
+            "name": "Tertiary"
+          }
+        ]
+      }
+    }
+  }

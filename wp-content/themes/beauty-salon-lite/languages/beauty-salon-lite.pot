@@ -1,0 +1,214 @@
+# <!=Copyright (C) 2022 Blossom Themes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Beauty Salon Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/beauty-salon-lite\n"
+"POT-Creation-Date: 2022-09-21 03:37:58+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:35
+msgid "Demo & Documentation"
+msgstr ""
+
+#: functions.php:48
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:50
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:79
+msgid "Site Title Font"
+msgstr ""
+
+#: functions.php:80
+msgid "Site title and tagline font."
+msgstr ""
+
+#: functions.php:102
+msgid "Site Title Font Size"
+msgstr ""
+
+#: functions.php:103
+msgid "Change the font size of your site title."
+msgstr ""
+
+#: functions.php:120
+msgid "Appearance Settings"
+msgstr ""
+
+#: functions.php:121
+msgid "Customize Color, Typography & Background Image"
+msgstr ""
+
+#: functions.php:129
+msgid "Typography Settings"
+msgstr ""
+
+#: functions.php:149
+msgid "Primary Font"
+msgstr ""
+
+#: functions.php:150
+msgid "Primary font of the site."
+msgstr ""
+
+#: functions.php:171
+msgid "Secondary Font"
+msgstr ""
+
+#: functions.php:172
+msgid "Secondary font of the site."
+msgstr ""
+
+#: functions.php:194
+msgid "Font Size"
+msgstr ""
+
+#: functions.php:195
+msgid "Change the font size of your site."
+msgstr ""
+
+#: functions.php:219
+msgid "Load Google Fonts Locally"
+msgstr ""
+
+#: functions.php:220
+msgid ""
+"Enable to load google fonts from your own server instead from google's CDN. "
+"This solves privacy concerns with Google's CDN and their sometimes "
+"less-than-transparent policies."
+msgstr ""
+
+#: functions.php:239
+msgid "Preload Local Fonts"
+msgstr ""
+
+#: functions.php:240
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr ""
+
+#: functions.php:248
+msgid "Click the button to reset the local fonts cache"
+msgstr ""
+
+#: functions.php:250
+msgid "Flush Local Font Files"
+msgstr ""
+
+#: functions.php:264
+msgid "Flush Local Fonts Cache"
+msgstr ""
+
+#: functions.php:283 functions.php:303
+msgid "Header Layout"
+msgstr ""
+
+#: functions.php:304
+msgid "This is the layout for header."
+msgstr ""
+
+#: functions.php:328
+msgid "Shopping Cart"
+msgstr ""
+
+#: functions.php:329
+msgid "Enable to show Shopping cart in the header."
+msgstr ""
+
+#: functions.php:432 functions.php:448
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:595
+msgid " Beauty Salon Lite | Developed By "
+msgstr ""
+
+#: functions.php:596
+msgid " Blossom Themes"
+msgstr ""
+
+#: functions.php:598
+msgid " Powered by %s"
+msgstr ""
+
+#: functions.php:598
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:605
+msgid "go to top"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Beauty Salon Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blossomthemes.com/wordpress-themes/beauty-salon-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Beauty Salon Lite is a beautiful WordPress theme focused on Spa and Salon "
+"business. Using this theme, you can create a fully functional and "
+"professional website for your businesses like spas, beauty salons, hair "
+"salons, wellness centers, massage parlors, yoga studios, meditation "
+"classes, nail studio and natural health care or any beauty businesses. The "
+"theme is easy to set up and has many features to make your website stand "
+"out from competitors. The theme includes several sections such as Banner "
+"Section with CTA, About, Services, Testimonials, Team, Blog, several "
+"Call-to-Actions, and Instagram section to sell your services and introduce "
+"your business. This speed-optimized theme is easy to use, mobile-friendly, "
+"and SEO-friendly. It is also WooCommerce compatible, translation-ready, RTL "
+"script-ready and Schema friendly. Check theme details at "
+"https://blossomthemes.com/wordpress-themes/beauty-salon-lite/, demo at "
+"https://blossomthemes.com/theme-demo/?theme=beauty-salon-lite, "
+"documentation at https://docs.blossomthemes.com/beauty-salon-lite/, and get "
+"support at https://blossomthemes.com/support-ticket/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blossom Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://blossomthemes.com/"
+msgstr ""
+
+#: functions.php:476
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:477
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:478
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr ""

@@ -1,0 +1,114 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "title": "Rain Forest",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Primary",
+                    "color": "#0EAD63",
+                    "slug": "primary"
+                },
+                {
+                    "name": "Secondary",
+                    "color": "#0FB869",
+                    "slug": "secondary"
+                },
+                {
+                    "name": "Heading",
+                    "color": "#1F2937",
+                    "slug": "heading"
+                },
+                {
+                    "name": "Body",
+                    "color": "#4B5563",
+                    "slug": "body"
+                },
+                {
+                    "name": "Background",
+                    "color": "#FFFFFF",
+                    "slug": "background"
+                },
+                {
+                    "name": "Tertiary",
+                    "color": "#ECFDF6",
+                    "slug": "tertiary"
+                },
+                {
+                    "name": "Quaternary",
+                    "color": "#FEFAEC",
+                    "slug": "quaternary"
+                },
+                {
+                    "name": "Surface",
+                    "color": "#F5FAF8",
+                    "slug": "surface"
+                },
+                {
+                    "name": "Foreground",
+                    "color": "#0EAD64",
+                    "slug": "foreground"
+                },
+                {
+                    "name": "Outline",
+                    "color": "#E7EEEB",
+                    "slug": "outline"
+                },
+                {
+                    "name": "Neutral",
+                    "color": "#6E7787",
+                    "slug": "neutral"
+                },
+                {
+                    "name": "Transparent",
+                    "color": "transparent",
+                    "slug": "transparent"
+                },
+                {
+                    "name": "Current Color",
+                    "color": "currentColor",
+                    "slug": "currentColor"
+                },
+                {
+                    "name": "Inherit",
+                    "color": "inherit",
+                    "slug": "inherit"
+                }
+            ],
+            "gradients": [
+                {
+                  "slug": "primary",
+                  "gradient": "linear-gradient(286.83deg, #134E5E -1.55%, #2CB34B 100%)",
+                  "name": "Primary"
+                }
+              ],
+            "duotone": [
+                {
+                    "colors": [
+                        "#0EAD63",
+                        "#0EAD63"
+                    ],
+                    "slug": "primary",
+                    "name": "Primary"
+                },
+                {
+                    "colors": [
+                        "#1F2937",
+                        "#1F2937"
+                    ],
+                    "slug": "secondary",
+                    "name": "Secondary"
+                },
+                {
+                  "colors": [
+                    "#FFFFFF",
+                    "#FFFFFF"
+                  ],
+                  "slug": "tertiary",
+                  "name": "Tertiary"
+                }
+            ]
+        }
+    }
+}

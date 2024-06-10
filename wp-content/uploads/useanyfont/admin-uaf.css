@@ -1,0 +1,12 @@
+				@font-face {
+					font-family: 'futura-dysplay';
+					src: url('/MapleMark/wordpress/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff2') format('woff2'),
+						url('/MapleMark/wordpress/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff') format('woff');
+						  font-display: auto;
+				}
+
+				.futura-dysplay{font-family: 'futura-dysplay' !important;}
+
+				.et_gf_futura-dysplay{background:none !important;font-family:futura-dysplay;text-indent:0 !important;font-size:25px;}
+
+		

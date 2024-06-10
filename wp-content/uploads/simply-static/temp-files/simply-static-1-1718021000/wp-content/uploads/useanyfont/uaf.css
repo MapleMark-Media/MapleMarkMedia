@@ -1,0 +1,16 @@
+				@font-face {
+					font-family: 'futura-dysplay';
+					src: url('/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.futura-dysplay{font-family: 'futura-dysplay' !important;}
+
+						h1{
+					font-family: 'futura-dysplay' !important;
+				}
+						h1, h2{
+					font-family: 'futura-dysplay' !important;
+				}
+		

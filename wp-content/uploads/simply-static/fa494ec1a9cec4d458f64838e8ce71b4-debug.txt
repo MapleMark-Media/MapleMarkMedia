@@ -1,0 +1,591 @@
+[2024-06-10 12:03:20] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-06-10 12:03:20] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-06-10 12:03:20] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-06-10 12:03:22] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-06-10 12:03:22] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-06-10 12:03:22] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-06-10 12:03:22] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000\
+[2024-06-10 12:03:22] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/MapleMark/wordpress/
+[2024-06-10 12:03:22] [class-ss-setup-task.php:137] File C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/Users/housk/Desktop/New folder/htdocs/MapleMark/wordpress/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-06-10 12:03:22] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-06-10 12:03:22] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-10 12:03:22] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-10 12:03:22] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-06-10 12:03:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/
+[2024-06-10 12:03:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-06-10 12:03:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8a58565-SON3kq.tmp
+[2024-06-10 12:03:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/?simply_static_page=56
+[2024-06-10 12:03:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/?simply_static_page=56
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:103] Filesize: 65374 bytes
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8a58565-SON3kq.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/index.html
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:159] Adding 26 URLs to the queue
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ô¨T79%Õ‡xdEº‘ºcª]â
+[2024-06-10 12:03:23] [class-ss-page.php:118] Checking Content Identical:f4a85437392502d587786445ba91ba1563aa5de2===. Value: FALSE
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:72] URL: C:/Users/housk/Desktop/New folder/htdocs/MapleMark/wordpress/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-06-10 12:03:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-06-10 12:03:23] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-06-10 12:03:23] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-10 12:03:23] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-10 12:03:23] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:69] Total pages: 27; Pages remaining: 25
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/2-small-1.png
+[2024-06-10 12:03:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 27
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8b96b71-4FGTpw.tmp
+[2024-06-10 12:03:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/2-small-1.png?simply_static_page=58
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/2-small-1.png?simply_static_page=58
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:103] Filesize: 104061 bytes
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/2-small-1.png
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8b96b71-4FGTpw.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/2024/06/2-small-1.png
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ²«	Æ°¼<Öµ¼ß‰è¿ÀJQI¾ë
+[2024-06-10 12:03:23] [class-ss-page.php:118] Checking Content Identical:b2ab09c6b0bc3cd6b5bcdf89e8bfc04a5149beeb===. Value: FALSE
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/hero.jpg
+[2024-06-10 12:03:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 27
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8badebc-7EtN7M.tmp
+[2024-06-10 12:03:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/hero.jpg?simply_static_page=59
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/hero.jpg?simply_static_page=59
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:103] Filesize: 151322 bytes
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/img/starter-content/hero.jpg
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8badebc-7EtN7M.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/themes/neve/assets/img/starter-content/hero.jpg
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: yöaEOÈœGmß»þ	È
+[2024-06-10 12:03:23] [class-ss-page.php:118] Checking Content Identical:15197919f661454fc89c7f476ddfbb13fe09c80d===. Value: FALSE
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1-3.png
+[2024-06-10 12:03:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 27
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8bc47f1-PQg6AQ.tmp
+[2024-06-10 12:03:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1-3.png?simply_static_page=60
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1-3.png?simply_static_page=60
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:103] Filesize: 24492 bytes
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/1-3.png
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8bc47f1-PQg6AQ.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/2024/06/1-3.png
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: —$†ÖØ¹ÑúñëÌEQ3ðž!
+[2024-06-10 12:03:23] [class-ss-page.php:118] Checking Content Identical:972486d6d8b9d19dfaf1eb05cc0f455133f09e21===. Value: FALSE
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-03.svg
+[2024-06-10 12:03:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 27
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8bd86bb-Oivspv.tmp
+[2024-06-10 12:03:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-03.svg?simply_static_page=61
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-03.svg?simply_static_page=61
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:103] Filesize: 483 bytes
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/img/starter-content/icon-03.svg
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8bd86bb-Oivspv.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/themes/neve/assets/img/starter-content/icon-03.svg
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: µ9q´ÏöÿÛú+y«ýkƒÞül
+[2024-06-10 12:03:23] [class-ss-page.php:118] Checking Content Identical:b5390e71b4cff611ffdbfa2b79abfd6b83defc6c===. Value: FALSE
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-02.svg
+[2024-06-10 12:03:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 27
+[2024-06-10 12:03:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8bf29bb-Aac2lz.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-02.svg?simply_static_page=62
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-02.svg?simply_static_page=62
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 780 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/img/starter-content/icon-02.svg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8bf29bb-Aac2lz.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/themes/neve/assets/img/starter-content/icon-02.svg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: þóŸbÔl+•Ñ}vÈ…è‘
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:18fef3079f62d46c112b959dd17d76c8851de891===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-01.svg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8c16c76-kMD7qg.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-01.svg?simply_static_page=63
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/icon-01.svg?simply_static_page=63
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 478 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/img/starter-content/icon-01.svg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8c16c76-kMD7qg.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/themes/neve/assets/img/starter-content/icon-01.svg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: 9@Â®oX‡Œe^RBÓ‘!{lÃˆ
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:3940c2ae6f58878c655e5242d391217b1e6cc388===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/800px-Absolute_Towers_Mississauga._South-west_view.jpg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8c2e1fd-vZp91h.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/800px-Absolute_Towers_Mississauga._South-west_view.jpg?simply_static_page=64
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/800px-Absolute_Towers_Mississauga._South-west_view.jpg?simply_static_page=64
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 186085 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/800px-Absolute_Towers_Mississauga._South-west_view.jpg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8c2e1fd-vZp91h.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/2024/06/800px-Absolute_Towers_Mississauga._South-west_view.jpg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ˜Ê/¬’ä=yÕLgîÐX(*&á¢
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:98ca2fac1392e43d79d54c67eed058282a26e1a2===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/card-04.jpg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8c476cb-AirnXO.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/card-04.jpg?simply_static_page=65
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/card-04.jpg?simply_static_page=65
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 62158 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/img/starter-content/card-04.jpg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8c476cb-AirnXO.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/themes/neve/assets/img/starter-content/card-04.jpg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ÃŠ©0nàîš>?Q+=kø˜ï<é
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:c38aa9306ee0ee9a3e1a3f512b3d6bf898ef3ce9===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/card-03.jpg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8c5df89-bnVKvH.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/card-03.jpg?simply_static_page=66
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/img/starter-content/card-03.jpg?simply_static_page=66
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 84699 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/img/starter-content/card-03.jpg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8c5df89-bnVKvH.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/themes/neve/assets/img/starter-content/card-03.jpg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ápyRRg¼ÃQZÅovZ $èÇÿ
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:e1700379525267bcc3515ac56f765a2024e8c7ff===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Ehab-Jjames_Headshot_Crop-4.jpg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8c74430-uj7YNH.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Ehab-Jjames_Headshot_Crop-4.jpg?simply_static_page=67
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Ehab-Jjames_Headshot_Crop-4.jpg?simply_static_page=67
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 698523 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/Ehab-Jjames_Headshot_Crop-4.jpg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8c74430-uj7YNH.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/2024/06/Ehab-Jjames_Headshot_Crop-4.jpg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: JbòZ1þ×}b¬Åžø¾ºSD
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:4a62f25a31fed77d1662acc59ef81b9dbeba5344===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Cameron-Brown.jpg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8c90659-cH3iQU.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Cameron-Brown.jpg?simply_static_page=68
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Cameron-Brown.jpg?simply_static_page=68
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 197056 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/Cameron-Brown.jpg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8c90659-cH3iQU.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/2024/06/Cameron-Brown.jpg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Ê^±âè§`«Rm)RkcT
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:11ca1d5eb113e2e8a71660ab520f6d29526b6354===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Kenny-Wang-Headshot-2.jpg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8ca8340-DeMPnj.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Kenny-Wang-Headshot-2.jpg?simply_static_page=69
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/Kenny-Wang-Headshot-2.jpg?simply_static_page=69
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 540784 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/Kenny-Wang-Headshot-2.jpg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8ca8340-DeMPnj.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/2024/06/Kenny-Wang-Headshot-2.jpg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ×Q²à:œ&GEcÕâÞ=ùU6<
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:19d78f51b2e03a9c26474563d5e2de3df955363c===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1717771864324.jpg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8cc4ef1-VpMaaF.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1717771864324.jpg?simply_static_page=70
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1717771864324.jpg?simply_static_page=70
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 168620 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/1717771864324.jpg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8cc4ef1-VpMaaF.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/2024/06/1717771864324.jpg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Ð(~ž»N¼î&Þ4ÀH–™
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:d0287e9ebb4e0dbcee26de1634c0481e1c96990b===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1717977380225.jpg
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8cdb376-0X0cvB.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1717977380225.jpg?simply_static_page=71
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/2024/06/1717977380225.jpg?simply_static_page=71
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:103] Filesize: 121925 bytes
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/06/1717977380225.jpg
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8cdb376-0X0cvB.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/2024/06/1717977380225.jpg
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: W”‘H…EËÒµe%Ä‚Jôs
+[2024-06-10 12:03:24] [class-ss-page.php:118] Checking Content Identical:5794914818850b45cbd201b56525c482154af473===. Value: FALSE
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/js/build/modern/frontend.js
+[2024-06-10 12:03:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 27
+[2024-06-10 12:03:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8cf25f9-GO3zxs.tmp
+[2024-06-10 12:03:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/js/build/modern/frontend.js?simply_static_page=72
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/assets/js/build/modern/frontend.js?simply_static_page=72
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:103] Filesize: 7189 bytes
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/assets/js/build/modern/frontend.js
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8cf25f9-GO3zxs.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/themes/neve/assets/js/build/modern/frontend.js
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: j<:ïOö:×oä’ôLÃ˜2.VÇ
+[2024-06-10 12:03:25] [class-ss-page.php:118] Checking Content Identical:6a3c3aef4ff68d3ad76fe492f44cc398322e56c7===. Value: FALSE
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/feed/
+[2024-06-10 12:03:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 27
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8d18c38-3jEzan.tmp
+[2024-06-10 12:03:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/feed/?simply_static_page=73
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/feed/?simply_static_page=73
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:103] Filesize: 1802 bytes
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8d18c38-3jEzan.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/feed/index.xml
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: `5utÅ‚¸HÒ´P¤¹‰Fé±
+[2024-06-10 12:03:25] [class-ss-page.php:118] Checking Content Identical:60357574c582b84805d2b450a405b98946e9b10c===. Value: FALSE
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/comments/feed/
+[2024-06-10 12:03:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 27
+[2024-06-10 12:03:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8deeb89-zDbTXk.tmp
+[2024-06-10 12:03:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/comments/feed/?simply_static_page=74
+[2024-06-10 12:03:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/comments/feed/?simply_static_page=74
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:103] Filesize: 1753 bytes
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8deeb89-zDbTXk.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/comments/feed/index.xml
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: „{ûÅkƒ"¨g¶AD¾SæŒ-;²
+[2024-06-10 12:03:26] [class-ss-page.php:118] Checking Content Identical:847bfbc56b8322a867b64144be53e68c2d113bb2===. Value: FALSE
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-includes/css/dist/block-library/style.min.css
+[2024-06-10 12:03:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 27
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8ec12d5-tYScNt.tmp
+[2024-06-10 12:03:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-includes/css/dist/block-library/style.min.css?simply_static_page=75
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-includes/css/dist/block-library/style.min.css?simply_static_page=75
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:103] Filesize: 113381 bytes
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8ec12d5-tYScNt.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-includes/css/dist/block-library/style.min.css
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ±jdt]\8š£FƒòÞ
+[2024-06-10 12:03:26] [class-ss-page.php:118] Checking Content Identical:b16a640874025d085c38119a1a02a3460f83f2de===. Value: FALSE
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/uaf.css
+[2024-06-10 12:03:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 27
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8edb317-rP50Io.tmp
+[2024-06-10 12:03:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/uaf.css?simply_static_page=76
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/uaf.css?simply_static_page=76
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:103] Filesize: 512 bytes
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/useanyfont/uaf.css
+[2024-06-10 12:03:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8edb317-rP50Io.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/useanyfont/uaf.css
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:26] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: &½ÑuéêŠƒjÊ„CÔQ‚úz)Ñ
+[2024-06-10 12:03:26] [class-ss-page.php:118] Checking Content Identical:26bdd175e9ea8a831c6aca8443d45182fa7a29d1===. Value: FALSE
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/uag-plugin/assets/0/uag-css-10.css
+[2024-06-10 12:03:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 27
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8f06b5a-vAijWJ.tmp
+[2024-06-10 12:03:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/uag-plugin/assets/0/uag-css-10.css?simply_static_page=77
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/uag-plugin/assets/0/uag-css-10.css?simply_static_page=77
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:103] Filesize: 7156 bytes
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/0/uag-css-10.css
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8f06b5a-vAijWJ.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/uag-plugin/assets/0/uag-css-10.css
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ¼?uNb^=\ÛòP:×Ü£îð
+[2024-06-10 12:03:27] [class-ss-page.php:118] Checking Content Identical:bc3f754e625e3d1b5c131cdbf2503ad7dca3eef0===. Value: FALSE
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/style-main-new.min.css
+[2024-06-10 12:03:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 27
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8f27ff7-BBHqZ5.tmp
+[2024-06-10 12:03:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/themes/neve/style-main-new.min.css?simply_static_page=78
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/themes/neve/style-main-new.min.css?simply_static_page=78
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:103] Filesize: 39013 bytes
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/neve/style-main-new.min.css
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8f27ff7-BBHqZ5.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/themes/neve/style-main-new.min.css
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: a“´È+ïI]Q.Îk8n2½åÆ
+[2024-06-10 12:03:27] [class-ss-page.php:118] Checking Content Identical:6193b4c82bef495d512ece6b38176e327fbde5c6===. Value: FALSE
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-json/
+[2024-06-10 12:03:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 27
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/MapleMark/wordpress/wp-json/
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-json/wp/v2/pages/10
+[2024-06-10 12:03:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 27
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/MapleMark/wordpress/wp-json/wp/v2/pages/10
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/xmlrpc.php
+[2024-06-10 12:03:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 27
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/MapleMark/wordpress/xmlrpc.php
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-json/oembed/1.0/embed
+[2024-06-10 12:03:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 27
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/MapleMark/wordpress/wp-json/oembed/1.0/embed
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-10 12:03:27] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 27 pages/files
+[2024-06-10 12:03:27] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-10 12:03:27] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-10 12:03:27] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 5
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress
+[2024-06-10 12:03:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8f61522-Mk0VTo.tmp
+[2024-06-10 12:03:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress?simply_static_page=83
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress?simply_static_page=83
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:103] Filesize: 366 bytes
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:205] redirect_url: http://localhost/MapleMark/wordpress/
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:214] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/2024/06/04/hello-world/
+[2024-06-10 12:03:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2024-06-10 12:03:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb8f752da-h3zg0R.tmp
+[2024-06-10 12:03:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/2024/06/04/hello-world/?simply_static_page=84
+[2024-06-10 12:03:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/2024/06/04/hello-world/?simply_static_page=84
+[2024-06-10 12:03:28] [class-ss-url-fetcher.php:103] Filesize: 53489 bytes
+[2024-06-10 12:03:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-10 12:03:28] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/04/hello-world/index.html
+[2024-06-10 12:03:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb8f752da-h3zg0R.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/2024/06/04/hello-world/index.html
+[2024-06-10 12:03:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:28] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-06-10 12:03:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:28] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: P±iˆ€ê}"·¡î‹£LT"ü±’
+[2024-06-10 12:03:28] [class-ss-page.php:118] Checking Content Identical:5012b1698880ea7d22b7a1ee8ba34c5422fcb192===. Value: FALSE
+[2024-06-10 12:03:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/2024/06/04/hello-world/feed/
+[2024-06-10 12:03:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2024-06-10 12:03:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb908c006-fWLQiw.tmp
+[2024-06-10 12:03:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/2024/06/04/hello-world/feed/?simply_static_page=85
+[2024-06-10 12:03:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/2024/06/04/hello-world/feed/?simply_static_page=85
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:103] Filesize: 1765 bytes
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/04/hello-world/feed/index.xml
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb908c006-fWLQiw.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/2024/06/04/hello-world/feed/index.xml
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: \Ÿú(Ý)Á¬˜²ŠF7ƒ¯qì
+[2024-06-10 12:03:29] [class-ss-page.php:118] Checking Content Identical:5c9f0dfa0728dd29c1ac98b28a46103783af71ec===. Value: FALSE
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff2
+[2024-06-10 12:03:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb9154853-LXyidv.tmp
+[2024-06-10 12:03:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff2?simply_static_page=86
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff2?simply_static_page=86
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:103] Filesize: 18144 bytes
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/useanyfont/7358Futura-Dysplay.woff2
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb9154853-LXyidv.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff2
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ^ègW#‘  ö¢••ËP…
+[2024-06-10 12:03:29] [class-ss-page.php:118] Checking Content Identical:1f5e18e8675723911800a0f61aa2950495cb5085===. Value: FALSE
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff
+[2024-06-10 12:03:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb916cc41-8OqxHN.tmp
+[2024-06-10 12:03:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff?simply_static_page=87
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff?simply_static_page=87
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:103] Filesize: 22924 bytes
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/useanyfont/7358Futura-Dysplay.woff
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb916cc41-8OqxHN.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-content/uploads/useanyfont/7358Futura-Dysplay.woff
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Œ}ŒzâXÚP‘c`'˜ö„£9
+[2024-06-10 12:03:29] [class-ss-page.php:118] Checking Content Identical:8c7d8c7ae258da5091171a63602798f61884a339===. Value: FALSE
+[2024-06-10 12:03:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 27 of 32 pages/files
+[2024-06-10 12:03:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-10 12:03:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-10 12:03:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:69] Total pages: 37; Pages remaining: 5
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/author/maplemark/
+[2024-06-10 12:03:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 37
+[2024-06-10 12:03:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb918dde2-b6vv6Z.tmp
+[2024-06-10 12:03:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/author/maplemark/?simply_static_page=88
+[2024-06-10 12:03:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/author/maplemark/?simply_static_page=88
+[2024-06-10 12:03:30] [class-ss-url-fetcher.php:103] Filesize: 45254 bytes
+[2024-06-10 12:03:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-10 12:03:30] [class-ss-url-fetcher.php:233] New filename for static page: /author/maplemark/index.html
+[2024-06-10 12:03:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb918dde2-b6vv6Z.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/author/maplemark/index.html
+[2024-06-10 12:03:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:30] [class-ss-fetch-urls-task.php:159] Adding 14 URLs to the queue
+[2024-06-10 12:03:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:30] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: ‰^æ|"»%Þ't\Ô‘TŽ
+[2024-06-10 12:03:30] [class-ss-page.php:118] Checking Content Identical:89905e199de67c22bb25de27745cd408910c548e===. Value: FALSE
+[2024-06-10 12:03:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/2024/06/
+[2024-06-10 12:03:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 37
+[2024-06-10 12:03:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb9293cb6-p1A9F6.tmp
+[2024-06-10 12:03:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/2024/06/?simply_static_page=89
+[2024-06-10 12:03:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/2024/06/?simply_static_page=89
+[2024-06-10 12:03:31] [class-ss-url-fetcher.php:103] Filesize: 44910 bytes
+[2024-06-10 12:03:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-10 12:03:31] [class-ss-url-fetcher.php:233] New filename for static page: /2024/06/index.html
+[2024-06-10 12:03:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb9293cb6-p1A9F6.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/2024/06/index.html
+[2024-06-10 12:03:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:31] [class-ss-fetch-urls-task.php:159] Adding 12 URLs to the queue
+[2024-06-10 12:03:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:31] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: *–·Þ	ÇÄ?K·Ö‡KÃ¦uµ
+[2024-06-10 12:03:31] [class-ss-page.php:118] Checking Content Identical:2a96b7de09c7c43f4bb71181d6874bc3a6751bb5===. Value: FALSE
+[2024-06-10 12:03:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/category/uncategorized/
+[2024-06-10 12:03:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 37
+[2024-06-10 12:03:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb939fbd0-hjJsQe.tmp
+[2024-06-10 12:03:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/category/uncategorized/?simply_static_page=90
+[2024-06-10 12:03:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/category/uncategorized/?simply_static_page=90
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:103] Filesize: 45260 bytes
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb939fbd0-hjJsQe.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/category/uncategorized/index.html
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:159] Adding 14 URLs to the queue
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: "îž¤S Öý?ž?_ÅÕîÒ)
+[2024-06-10 12:03:32] [class-ss-page.php:118] Checking Content Identical:22ee9ea4530ba01ed6fd3f9e3f5fc50bd5eed229===. Value: FALSE
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-includes/js/comment-reply.min.js
+[2024-06-10 12:03:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 37
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb9492027-jx5R44.tmp
+[2024-06-10 12:03:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/wp-includes/js/comment-reply.min.js?simply_static_page=91
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/wp-includes/js/comment-reply.min.js?simply_static_page=91
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb9492027-jx5R44.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/wp-includes/js/comment-reply.min.js
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Û6§jª c¿¾À,,–t8Å¢E
+[2024-06-10 12:03:32] [class-ss-page.php:118] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-json/wp/v2/posts/1
+[2024-06-10 12:03:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 37
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/MapleMark/wordpress/wp-json/wp/v2/posts/1
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-10 12:03:32] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 37 pages/files
+[2024-06-10 12:03:32] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-10 12:03:32] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-10 12:03:32] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:69] Total pages: 41; Pages remaining: 4
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/author/maplemark/feed/
+[2024-06-10 12:03:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 41
+[2024-06-10 12:03:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb94b8b09-GzZQZL.tmp
+[2024-06-10 12:03:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/author/maplemark/feed/?simply_static_page=93
+[2024-06-10 12:03:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/author/maplemark/feed/?simply_static_page=93
+[2024-06-10 12:03:33] [class-ss-url-fetcher.php:103] Filesize: 1837 bytes
+[2024-06-10 12:03:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-10 12:03:33] [class-ss-url-fetcher.php:233] New filename for static page: /author/maplemark/feed/index.xml
+[2024-06-10 12:03:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb94b8b09-GzZQZL.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/author/maplemark/feed/index.xml
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:172] SHA1 BINARY:  `YŽ„ÇøÏ–‘YÍM™J¾e&ä€
+[2024-06-10 12:03:33] [class-ss-page.php:118] Checking Content Identical:0060598e84c7f8cf969159cd4d994abe6526e480===. Value: FALSE
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-json/wp/v2/users/1
+[2024-06-10 12:03:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 41
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/MapleMark/wordpress/wp-json/wp/v2/users/1
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/category/uncategorized/feed/
+[2024-06-10 12:03:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 41
+[2024-06-10 12:03:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-06-10 12:03:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb958e4e7-mHAdTt.tmp
+[2024-06-10 12:03:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/category/uncategorized/feed/?simply_static_page=95
+[2024-06-10 12:03:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/category/uncategorized/feed/?simply_static_page=95
+[2024-06-10 12:03:34] [class-ss-url-fetcher.php:103] Filesize: 1847 bytes
+[2024-06-10 12:03:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-06-10 12:03:34] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-06-10 12:03:34] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb958e4e7-mHAdTt.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000/category/uncategorized/feed/index.xml
+[2024-06-10 12:03:34] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-06-10 12:03:34] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-06-10 12:03:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-06-10 12:03:34] [class-ss-fetch-urls-task.php:172] SHA1 BINARY: Á ù–‡K·nç €\²y
+[2024-06-10 12:03:34] [class-ss-page.php:118] Checking Content Identical:c19d19180520f996874bb76ee7100011805cb279===. Value: FALSE
+[2024-06-10 12:03:34] [class-ss-fetch-urls-task.php:72] URL: http://localhost/MapleMark/wordpress/wp-json/wp/v2/categories/1
+[2024-06-10 12:03:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 41
+[2024-06-10 12:03:34] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/MapleMark/wordpress/wp-json/wp/v2/categories/1
+[2024-06-10 12:03:34] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-06-10 12:03:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 37 of 41 pages/files
+[2024-06-10 12:03:34] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-06-10 12:03:34] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-06-10 12:03:34] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-06-10 12:03:34] [class-ss-fetch-urls-task.php:69] Total pages: 41; Pages remaining: 0
+[2024-06-10 12:03:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 41 of 41 pages/files
+[2024-06-10 12:03:34] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-06-10 12:03:34] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-06-10 12:03:34] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-06-10 12:03:34] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-06-10 12:03:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\housk\AppData\Local\Temp/6666eb9669f25-pNcOu9.tmp
+[2024-06-10 12:03:34] [class-ss-page-handler.php:38] URL Prepared:http://localhost/MapleMark/wordpress/1718021015?simply_static_page=0
+[2024-06-10 12:03:34] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress/1718021015?simply_static_page=0
+[2024-06-10 12:03:35] [class-ss-url-fetcher.php:103] Filesize: 44371 bytes
+[2024-06-10 12:03:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-06-10 12:03:35] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-06-10 12:03:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\housk\AppData\Local\Temp/6666eb9669f25-pNcOu9.tmp to C:\Users\housk\Desktop\New folder\htdocs\MapleMark\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1718021000\404/index.html
+[2024-06-10 12:03:35] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-06-10 12:03:35] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-06-10 12:03:35] [class-ss-page.php:118] Checking Content Identical:415a9fe951813cc8f469115f1388e79dd143b044===. Value: FALSE
+[2024-06-10 12:03:35] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-06-10 12:03:35] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-06-10 12:03:35] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-06-10 12:03:35] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/MapleMark/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1718021000.zip">Click here to download</a>
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-06-10 12:03:35] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-06-10 12:03:35] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-06-10 12:03:35] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:15

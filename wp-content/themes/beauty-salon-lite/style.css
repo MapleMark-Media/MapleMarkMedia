@@ -1,0 +1,319 @@
+/*
+Theme Name: Beauty Salon Lite
+Theme URI: https://blossomthemes.com/wordpress-themes/beauty-salon-lite/
+Template: blossom-spa  
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Beauty Salon Lite is a beautiful WordPress theme focused on Spa and Salon business. Using this theme, you can create a fully functional and professional website for your businesses like spas, beauty salons, hair salons, wellness centers, massage parlors, yoga studios, meditation classes, nail studio and natural health care or any beauty businesses. The theme is easy to set up and has many features to make your website stand out from competitors. The theme includes several sections such as Banner Section with CTA, About, Services, Testimonials, Team, Blog, several Call-to-Actions, and Instagram section to sell your services and introduce your business. This speed-optimized theme is easy to use, mobile-friendly, and SEO-friendly. It is also WooCommerce compatible, translation-ready, RTL script-ready and Schema friendly. Check theme details at https://blossomthemes.com/wordpress-themes/beauty-salon-lite/, demo at https://blossomthemes.com/theme-demo/?theme=beauty-salon-lite, documentation at https://docs.blossomthemes.com/beauty-salon-lite/, and get support at https://blossomthemes.com/support-ticket/
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tested up to: 6.0
+Requires PHP: 5.6
+Text Domain: beauty-salon-lite
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+/*============================
+Variable
+============================*/
+
+:root {
+    --primary-color: #F59B90;
+    --primary-color-rgb: 245, 155, 144;
+    --primary-font: 'DM Sans', sans-serif;
+    --secondary-font: 'Prata', serif;
+}
+
+/*============================
+Header Three Style
+============================*/
+.site-header.header-three ul.social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-header.header-three .header-contact {
+    justify-content: flex-start;
+}
+
+.header-three .header-social .social-list li a {
+    width: auto;
+    height: auto;
+    line-height: normal;
+    padding-left: 15px;
+    border-left: none;
+}
+
+.site-header.header-three .search-form-wrap {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.header-three .header-t .container {
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.header-three .header-contact .contact-block svg {
+    position: static;
+    width: 16px;
+    float: left;
+    margin-right: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.header-three .header-contact .contact-block .content {
+    font-size: 0.7778em;
+}
+
+.search-form-wrap.active+.header-three .header-t {
+    border-top: 1px solid #fff;
+}
+
+.header-three .header-t {
+    background: var(--primary-color);
+    padding: 10px 0;
+}
+
+.header-three .header-contact .contact-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    justify-self: center;
+    padding-left: 0;
+    border-left: none;
+}
+
+.header-three .header-contact .contact-block a {
+    color: #fff;
+}
+
+.header-three .header-contact .contact-block svg {
+    width: 20px;
+    margin-top: 0;
+}
+
+.header-three .header-contact .contact-block svg path.phb,
+.header-three .header-contact .contact-block svg path.emb,
+.header-three .header-contact .contact-block svg path.clkb {
+    fill: #fff;
+}
+
+.header-three .header-contact .contact-block .content {
+    line-height: 1.8;
+    color: #fff;
+    font-weight: 400;
+}
+
+.header-three .header-social .social-list li a {
+    color: #fff;
+    border-left: none;
+}
+
+.header-three .header-social .social-list li a:hover {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.site-header.header-three .cart a {
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.site-header.header-three .header-social+.cart a {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.site-header.header-three .cart a:hover {
+    background: none;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.site-header.header-three .cart a .count {
+    top: 0;
+    right: 0;
+}
+
+.site-header.header-three .cart a:hover .count {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.header-three .header-main .site-branding {
+    text-align: center;
+    align-items: center;
+}
+
+.header-three .main-navigation ul li a:after {
+    background: var(--primary-color);
+    top: auto;
+    bottom: 0;
+}
+
+.header-three .nav-wrap {
+    position: static;
+    padding: 0;
+    border-radius: 0;
+    background: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-three .nav-wrap .container {
+    text-align: center;
+}
+
+.header-three .nav-wrap .main-navigation,
+.header-three .nav-wrap .nav-right {
+    display: inline-block;
+}
+
+
+.header-three .main-navigation ul.nav-menu>li>a {
+    color: #262525;
+    padding: 20px 0;
+}
+
+.header-three .main-navigation ul li span {
+    color: #262525;
+    top: 24px;
+}
+
+.header-three .main-navigation ul ul li span {
+    top: 20px;
+}
+
+.header-three .main-navigation ul li ul {
+    top: 100%;
+    text-align: left;
+}
+
+.header-three .header-search>svg {
+    border-left-color: rgba(0, 0, 0, 0.1);
+    padding: 0 14px;
+}
+
+.header-three .header-search:hover>svg path.sea {
+    fill: var(--primary-color);
+}
+
+.header-three .header-search>svg path.sea {
+    fill: #262525;
+}
+
+.site-banner .banner-caption .description p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+.site-banner .banner-caption .description p:last-of-type {
+    margin-bottom: 0;
+}
+
+.site-header .header-social+.cart a {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.site-header.header-three .cart a {
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 10px;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+}
+
+.site-header.header-three .header-social+.cart a {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
+
+.site-header.header-three .cart a .number,
+.site-header.header-three .cart a .count {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    color: initial;
+    text-align: center;
+    line-height: 14px;
+    border-radius: 100%;
+    font-size: 0.6666em;
+    font-weight: 700;
+    border: 1px solid var(--primary-color);
+}
+
+.site-header.header-three .cart a .count,
+.site-header.header-three .cart a .number {
+    top: 0;
+    right: 0;
+}
+
+
+/*=============================
+RESPONSIVE STYLESHEET
+=============================*/
+@media screen and (max-width: 1024px) {
+
+    /*==========================
+	HEADER LAYOUT THREE
+	==========================*/
+    .header-three .header-t {
+        display: none;
+    }
+
+    .header-three .nav-wrap {
+        border-top: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 24px;
+    }
+
+    .header-three .nav-wrap .container {
+        background: var(--primary-color);
+        border-radius: 5px;
+        width: calc(100% - 30px);
+        text-align: left;
+        padding: 5px 10px;
+        top: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex: 1;
+    }
+
+    .header-three .nav-wrap .nav-right {
+        display: flex;
+    }
+
+    .header-three .header-search>svg path.sea,
+    .header-three .header-search:hover>svg path.sea {
+        fill: #fff;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .site-banner .item img {
+        width: auto;
+    }
+}

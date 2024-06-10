@@ -1,0 +1,182 @@
+# Translation of Themes - Beauty Salon Lite in English (Canada)
+# This file is distributed under the same license as the Themes - Beauty Salon Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-12 07:46:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: en_CA\n"
+"Project-Id-Version: Themes - Beauty Salon Lite\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Beauty Salon Lite"
+msgstr "Beauty Salon Lite"
+
+#: functions.php:605
+msgid "go to top"
+msgstr "go to top"
+
+#: functions.php:478
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:477
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:476
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:50
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr "Documentation Link: %1$sClick here.%2$s"
+
+#: functions.php:48
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr "Demo Link: %1$sClick here.%2$s"
+
+#: functions.php:35
+msgid "Demo & Documentation"
+msgstr "Demo & Documentation"
+
+#: functions.php:172
+msgid "Secondary font of the site."
+msgstr "Secondary font of the site."
+
+#: functions.php:171
+msgid "Secondary Font"
+msgstr "Secondary Font"
+
+#: functions.php:150
+msgid "Primary font of the site."
+msgstr "Primary font of the site."
+
+#: functions.php:149
+msgid "Primary Font"
+msgstr "Primary Font"
+
+#: functions.php:120
+msgid "Appearance Settings"
+msgstr "Appearance Settings"
+
+#: functions.php:103
+msgid "Change the font size of your site title."
+msgstr "Change the font size of your site title."
+
+#: functions.php:102
+msgid "Site Title Font Size"
+msgstr "Site Title Font Size"
+
+#: functions.php:80
+msgid "Site title and tagline font."
+msgstr "Site title and tagline font."
+
+#: functions.php:79
+msgid "Site Title Font"
+msgstr "Site Title Font"
+
+#: functions.php:194
+msgid "Font Size"
+msgstr "Font Size"
+
+#: functions.php:432 functions.php:448
+msgid "View your shopping cart"
+msgstr "View your shopping cart"
+
+#: functions.php:329
+msgid "Enable to show Shopping cart in the header."
+msgstr "Enable to show Shopping cart in the header."
+
+#: functions.php:328
+msgid "Shopping Cart"
+msgstr "Shopping Cart"
+
+#: functions.php:304
+msgid "This is the layout for header."
+msgstr "This is the layout for header."
+
+#: functions.php:283 functions.php:303
+msgid "Header Layout"
+msgstr "Header Layout"
+
+#: functions.php:195
+msgid "Change the font size of your site."
+msgstr "Change the font size of your site."
+
+#: functions.php:129
+msgid "Typography Settings"
+msgstr "Typography Settings"
+
+#: functions.php:121
+msgid "Customize Color, Typography & Background Image"
+msgstr "Customize Colour, Typography & Background Image"
+
+#: functions.php:595
+msgid " Beauty Salon Lite | Developed By "
+msgstr " Beauty Salon Lite | Developed By "
+
+#: functions.php:264
+msgid "Flush Local Fonts Cache"
+msgstr "Flush Local Fonts Cache"
+
+#: functions.php:250
+msgid "Flush Local Font Files"
+msgstr "Flush Local Font Files"
+
+#: functions.php:248
+msgid "Click the button to reset the local fonts cache"
+msgstr "Click the button to reset the local fonts cache"
+
+#: functions.php:240
+msgid "Preloading Google fonts will speed up your website speed."
+msgstr "Preloading Google fonts will speed up your website speed."
+
+#: functions.php:239
+msgid "Preload Local Fonts"
+msgstr "Preload Local Fonts"
+
+#: functions.php:220
+msgid "Enable to load google fonts from your own server instead from google's CDN. This solves privacy concerns with Google's CDN and their sometimes less-than-transparent policies."
+msgstr "Enable to load google fonts from your own server instead from google's CDN. This solves privacy concerns with Google's CDN and their sometimes less-than-transparent policies."
+
+#: functions.php:219
+msgid "Load Google Fonts Locally"
+msgstr "Load Google Fonts Locally"
+
+#: functions.php:596
+msgid " Blossom Themes"
+msgstr " Blossom Themes"
+
+#: functions.php:598
+msgid " Powered by %s"
+msgstr " Powered by %s"
+
+#: functions.php:598
+msgid "https://wordpress.org/"
+msgstr "https://en-ca.wordpress.org/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://blossomthemes.com/wordpress-themes/beauty-salon-lite/"
+msgstr "https://blossomthemes.com/wordpress-themes/beauty-salon-lite/"

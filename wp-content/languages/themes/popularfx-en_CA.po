@@ -1,0 +1,647 @@
+# Translation of Themes - PopularFX in English (Canada)
+# This file is distributed under the same license as the Themes - PopularFX package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-14 00:48:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: en_CA\n"
+"Project-Id-Version: Themes - PopularFX\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Lightweight theme to make beautiful websites with Pagelayer. Includes 100s of pre-made templates to design your dream website !"
+msgstr "Lightweight theme to make beautiful websites with Pagelayer. Includes 100s of pre-made templates to design your dream website !"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "PopularFX"
+msgstr "PopularFX"
+
+#: functions.php:516
+msgid "Thanks for choosing PopularFX. We recommend that you see the <a href=\"https://www.youtube.com/watch?v=DCisrbrmjgI\" target=\"_blank\">PopularFX Theme Guide Video</a> to know the basics of PopularFX."
+msgstr "Thanks for choosing PopularFX. We recommend that you see the <a href=\"https://www.youtube.com/watch?v=DCisrbrmjgI\" target=\"_blank\">PopularFX Theme Guide Video</a> to know the basics of PopularFX."
+
+#: footer.php:19
+msgid "https://wordpress.org/"
+msgstr "https://en-ca.wordpress.org/"
+
+#: functions.php:639
+msgid "%1$s has many more features like 500+ Website %2$s Templates%3$s, 90+ widgets, 500+ sections, Theme Builder, WooCommerce Builder, Theme Creator and Exporter, Form Builder, Popup Builder, etc. You get a Pagelayer Pro license with the PopularFX Pro version."
+msgstr "%1$s has many more features like 500+ Website %2$s Templates%3$s, 90+ widgets, 500+ sections, Theme Builder, WooCommerce Builder, Theme Creator and Exporter, Form Builder, Popup Builder, etc. You get a Pagelayer Pro licence with the PopularFX Pro version."
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ", "
+
+#: inc/popularfx-dashboard.php:101
+msgid "1-click Admin Access"
+msgstr "1-click Admin Access"
+
+#: inc/popularfx-dashboard.php:58
+msgid "30+ Free Widgets"
+msgstr "30+ Free Widgets"
+
+#: inc/popularfx-dashboard.php:60
+msgid "400+ Premium Sections"
+msgstr "400+ Premium Sections"
+
+#: 404.php:17
+msgid "404"
+msgstr "404"
+
+#: inc/popularfx-dashboard.php:59
+msgid "60+ Premium Widgets"
+msgstr "60+ Premium Widgets"
+
+#: inc/customizer.php:344
+msgid "<b>Note:</b> The Pagelayer editor will open to edit these pages"
+msgstr "<b>Note:</b> The Pagelayer editor will open to edit these pages"
+
+#: inc/popularfx.php:62
+msgid "Activating Pagelayer Plugin !"
+msgstr "Activating Pagelayer Plugin !"
+
+#: inc/customizer.php:526
+msgid "Add any text to your footer. e.g. your copyright - &copy; Site Name"
+msgstr "Add any text to your footer. e.g. your copyright - &copy; Site Name"
+
+#: functions.php:266
+msgid "Add widgets here."
+msgstr "Add widgets here."
+
+#: inc/popularfx-dashboard.php:66 inc/popularfx-dashboard.php:87
+#: inc/popularfx-dashboard.php:108
+msgid "And many more ..."
+msgstr "And many more ..."
+
+#: inc/customizer.php:749
+msgid "Archives Sidebar"
+msgstr "Archives Sidebar"
+
+#: inc/customizer.php:596 inc/customizer.php:947
+msgid "Background Color"
+msgstr "Background Colour"
+
+#: inc/popularfx-dashboard.php:105
+msgid "Backup your WordPress Site"
+msgstr "Backup your WordPress Site"
+
+#: functions.php:469 functions.php:633
+msgid "Buy PopularFX Pro"
+msgstr "Buy PopularFX Pro"
+
+#: inc/customizer.php:491
+msgid "Change font size of site description"
+msgstr "Change font size of site description"
+
+#: inc/customizer.php:470
+msgid "Change font size of site tagline"
+msgstr "Change font size of site tagline"
+
+#: inc/customizer.php:435
+msgid "Change font size of site title"
+msgstr "Change font size of site title"
+
+#: inc/customizer.php:579
+msgid "Colors"
+msgstr "Colours"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: inc/customizer.php:1043
+msgid "Container"
+msgstr "Container"
+
+#: inc/customizer.php:1059
+msgid "Content Width"
+msgstr "Content Width"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:40
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/customizer.php:709 inc/customizer.php:730 inc/customizer.php:751
+#: inc/customizer.php:775 inc/customizer.php:1205
+msgid "Default"
+msgstr "Default"
+
+#: inc/customizer.php:686
+msgid "Default Sidebar"
+msgstr "Default Sidebar"
+
+#: inc/customizer.php:687
+msgid "Default layout for the Sidebar throughout the site"
+msgstr "Default layout for the Sidebar throughout the site"
+
+#: functions.php:466
+msgid "Did you know PopularFX comes with 500+ Templates to design your website. <br>Click to choose your template !"
+msgstr "Did you know PopularFX comes with 500+ Templates to design your website. <br>Click to choose your template !"
+
+#: inc/popularfx-dashboard.php:86
+msgid "Disable XML-RPC"
+msgstr "Disable XML-RPC"
+
+#: functions.php:647
+msgid "Dismiss"
+msgstr "Dismiss"
+
+#: functions.php:646
+msgid "Dismiss this Notice"
+msgstr "Dismiss this Notice"
+
+#: inc/popularfx.php:68
+msgid "Done! Pagelayer is now installed and activated"
+msgstr "Done! Pagelayer is now installed and activated"
+
+#: inc/popularfx.php:67
+msgid "Done! Pagelayer is now installed and activated.  Please click <a href=\"%s\">here</a> to import your themes content"
+msgstr "Done! Pagelayer is now installed and activated.  Please click <a href=\"%s\">here</a> to import your themes content"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Edit <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/customizer.php:356
+msgid "Edit Header / Footer"
+msgstr "Edit Header / Footer"
+
+#: inc/customizer.php:392
+msgid "Edit Pages"
+msgstr "Edit Pages"
+
+#: inc/customizer.php:374
+msgid "Edit Templates"
+msgstr "Edit Templates"
+
+#: functions.php:471 functions.php:635
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:1163
+msgid "Font Family"
+msgstr "Font Family"
+
+#: inc/customizer.php:1186
+msgid "Font Size"
+msgstr "Font Size"
+
+#: inc/customizer.php:1203
+msgid "Font Style"
+msgstr "Font Style"
+
+#: inc/customizer.php:1230
+msgid "Font Weight"
+msgstr "Font Weight"
+
+#: inc/customizer.php:434 inc/customizer.php:469 inc/customizer.php:490
+msgid "Font size"
+msgstr "Font size"
+
+#: inc/customizer.php:540
+msgid "Footer Background Color"
+msgstr "Footer Background Colour"
+
+#: inc/customizer.php:525
+msgid "Footer Text / HTML"
+msgstr "Footer Text / HTML"
+
+#: inc/popularfx-dashboard.php:64
+msgid "Form Builder"
+msgstr "Form Builder"
+
+#: inc/customizer.php:209 inc/customizer.php:235
+msgid "Get More Options with PopularFX Pro"
+msgstr "Get More Options with PopularFX Pro"
+
+#: inc/customizer.php:404
+msgid "Header & Footer Options"
+msgstr "Header & Footer Options"
+
+#: inc/customizer.php:418
+msgid "Header Background Color"
+msgstr "Header Background Colour"
+
+#: inc/customizer.php:308
+msgid "Header, Footer, Templates, Pages"
+msgstr "Header, Footer, Templates, Pages"
+
+#: inc/customizer.php:660
+msgid "Heading Color (H1-H6)"
+msgstr "Heading Colour (H1-H6)"
+
+#: inc/popularfx-dashboard.php:127
+msgid "I easily built my #WordPress #site using @PopularFXthemes"
+msgstr "I easily built my #WordPress #site using @PopularFXthemes"
+
+#: inc/popularfx.php:52
+msgid "Install Pagelayer Free Version"
+msgstr "Install Pagelayer Free Version"
+
+#: inc/popularfx-dashboard.php:207
+msgid "Install PopularFX Website Templates Plugin"
+msgstr "Install PopularFX Website Templates Plugin"
+
+#: functions.php:651
+msgid "Install from 500+ Website Templates"
+msgstr "Install from 500+ Website Templates"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: inc/customizer.php:1207
+msgid "Italic"
+msgstr "Italic"
+
+#. translators: %s: post title
+#: inc/template-tags.php:83
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+
+#: inc/customizer.php:690 inc/customizer.php:711 inc/customizer.php:732
+#: inc/customizer.php:753 inc/customizer.php:777
+msgid "Left Sidebar"
+msgstr "Left Sidebar"
+
+#: inc/popularfx-dashboard.php:125
+msgid "Let your followers know that you use PopularFX to build your website"
+msgstr "Let your followers know that you use PopularFX to build your website"
+
+#: inc/customizer.php:1279
+msgid "Line Height"
+msgstr "Line Height"
+
+#: inc/customizer.php:628
+msgid "Link Color"
+msgstr "Link Colour"
+
+#: inc/customizer.php:644
+msgid "Link Hover Color"
+msgstr "Link Hover Colour"
+
+#: inc/popularfx-dashboard.php:83
+msgid "Login Challenge Question"
+msgstr "Login Challenge Question"
+
+#: inc/popularfx-dashboard.php:99
+msgid "Manage all your WordPress sites from <b>1 dashboard</b>"
+msgstr "Manage all your WordPress sites from <b>1 dashboard</b>"
+
+#: inc/customizer.php:1101
+msgid "Mobile Breakpoint"
+msgstr "Mobile Breakpoint"
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "Most Used Categories"
+
+#: single.php:24
+msgid "Next:"
+msgstr "Next:"
+
+#: inc/customizer.php:689 inc/customizer.php:710 inc/customizer.php:731
+#: inc/customizer.php:752 inc/customizer.php:776
+msgid "No Sidebar"
+msgstr "No Sidebar"
+
+#: inc/customizer.php:1206
+msgid "Normal"
+msgstr "Normal"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: inc/customizer.php:1208
+msgid "Oblique"
+msgstr "Oblique"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "One thought on &ldquo;%1$s&rdquo;"
+
+#: inc/customizer.php:707
+msgid "Page Sidebar"
+msgstr "Page Sidebar"
+
+#: inc/popularfx-dashboard.php:212
+msgid "Pagelayer Version"
+msgstr "Pagelayer Version"
+
+#: template-parts/content-page.php:25 template-parts/content.php:53
+msgid "Pages:"
+msgstr "Pages:"
+
+#: inc/popularfx-dashboard.php:80
+msgid "PasswordLess Login"
+msgstr "PasswordLess Login"
+
+#: inc/popularfx-dashboard.php:221
+msgid "Path"
+msgstr "Path"
+
+#: inc/popularfx-dashboard.php:106
+msgid "Plugins & Theme Management"
+msgstr "Plugins & Theme Management"
+
+#: inc/popularfx.php:105
+msgid "PopularFX Options"
+msgstr "PopularFX Options"
+
+#: inc/popularfx-dashboard.php:205
+msgid "PopularFX Templates Plugin"
+msgstr "PopularFX Templates Plugin"
+
+#: functions.php:201
+msgid "PopularFX Theme"
+msgstr "PopularFX Theme"
+
+#: inc/popularfx-dashboard.php:65
+msgid "Popup Builder"
+msgstr "Popup Builder"
+
+#: inc/popularfx-dashboard.php:107
+msgid "Post Management"
+msgstr "Post Management"
+
+#: inc/customizer.php:728
+msgid "Post Sidebar"
+msgstr "Post Sidebar"
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:66
+msgid "Posted in %1$s"
+msgstr "Posted in %1$s"
+
+#: single.php:23
+msgid "Previous:"
+msgstr "Previous:"
+
+#: functions.php:73
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:22
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: functions.php:470 functions.php:634
+msgid "Rate it 5★'s"
+msgstr "Rate it 5★'s"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: inc/popularfx-dashboard.php:85
+msgid "Rename Login Page"
+msgstr "Rename Login Page"
+
+#: inc/popularfx-dashboard.php:21
+msgid "Review Pagelayer"
+msgstr "Review Pagelayer"
+
+#: inc/customizer.php:691 inc/customizer.php:712 inc/customizer.php:733
+#: inc/customizer.php:754 inc/customizer.php:778
+msgid "Right Sidebar"
+msgstr "Right Sidebar"
+
+#. translators: %s: search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: inc/popularfx-dashboard.php:78
+msgid "Secure your website with the following features"
+msgstr "Secure your website with the following features"
+
+#: inc/customizer.php:248
+msgid "See Pro Features"
+msgstr "See Pro Features"
+
+#: inc/popularfx-dashboard.php:225
+msgid "Server's IP Address"
+msgstr "Server's IP Address"
+
+#: inc/customizer.php:1102
+msgid "Set the breakpoint for mobile devices. The default breakpoint for mobile layout is 360px."
+msgstr "Set the breakpoint for mobile devices. The default breakpoint for mobile layout is 360px."
+
+#: inc/customizer.php:1081
+msgid "Set the breakpoint for tablet devices. The default breakpoint for tablet layout is 768px."
+msgstr "Set the breakpoint for tablet devices. The default breakpoint for tablet layout is 768px."
+
+#: inc/customizer.php:797
+msgid "Set the width of the Sidebar in percentage"
+msgstr "Set the width of the Sidebar in percentage"
+
+#: functions.php:264 inc/customizer.php:670
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/customizer.php:796
+msgid "Sidebar Width"
+msgstr "Sidebar Width"
+
+#: inc/customizer.php:453
+msgid "Site Title Color"
+msgstr "Site Title Colour"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: 404.php:18
+msgid "Sorry we couldn't find that page."
+msgstr "Sorry we couldn't find that page."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: inc/customizer.php:1080
+msgid "Tablet Breakpoint"
+msgstr "Tablet Breakpoint"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:73
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#: inc/customizer.php:509
+msgid "Tagline Color"
+msgstr "Tagline Colour"
+
+#: inc/customizer.php:612 inc/customizer.php:1330
+msgid "Text Color"
+msgstr "Text Colour"
+
+#: inc/customizer.php:1296
+msgid "Text Spacing"
+msgstr "Text Spacing"
+
+#: inc/customizer.php:1252
+msgid "Text Transform"
+msgstr "Text Transform"
+
+#: inc/popularfx-dashboard.php:56
+msgid "The best WordPress page builder"
+msgstr "The best WordPress page builder"
+
+#: inc/popularfx-dashboard.php:173
+msgid "The settings were saved successfully"
+msgstr "The settings were saved successfully"
+
+#: inc/customizer.php:1060
+msgid "The width of the content container. Default is 1170px"
+msgstr "The width of the content container. Default is 1170px"
+
+#: inc/popularfx-dashboard.php:61
+msgid "Theme Builder"
+msgstr "Theme Builder"
+
+#: inc/popularfx-dashboard.php:63
+msgid "Theme Creator and Exporter"
+msgstr "Theme Creator and Exporter"
+
+#: inc/popularfx-dashboard.php:186
+msgid "Theme Information"
+msgstr "Theme Information"
+
+#: inc/popularfx-dashboard.php:197
+msgid "Theme Name"
+msgstr "Theme Name"
+
+#: inc/popularfx-dashboard.php:201
+msgid "Theme Version"
+msgstr "Theme Version"
+
+#. translators: %1$s: smiley
+#: 404.php:49
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Try looking in the monthly archives. %1$s"
+
+#: functions.php:472 functions.php:636
+msgid "Tweet"
+msgstr "Tweet"
+
+#: inc/popularfx-dashboard.php:82
+msgid "Two Factor Auth - App"
+msgstr "Two Factor Auth - App"
+
+#: inc/popularfx-dashboard.php:81
+msgid "Two Factor Auth - Email"
+msgstr "Two Factor Auth - Email"
+
+#: inc/customizer.php:554
+msgid "Typography"
+msgstr "Typography"
+
+#: inc/popularfx-dashboard.php:217
+msgid "URL"
+msgstr "URL"
+
+#: inc/popularfx-dashboard.php:104
+msgid "Update Plugins"
+msgstr "Update Plugins"
+
+#: inc/popularfx-dashboard.php:103
+msgid "Update Themes"
+msgstr "Update Themes"
+
+#: inc/popularfx-dashboard.php:102
+msgid "Update WordPress"
+msgstr "Update WordPress"
+
+#: inc/popularfx-dashboard.php:68 inc/popularfx-dashboard.php:89
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: functions.php:473 functions.php:637
+msgid "Visit our website"
+msgstr "Visit our website"
+
+#: inc/popularfx-dashboard.php:110
+msgid "Visit wpCentral"
+msgstr "Visit wpCentral"
+
+#: functions.php:631
+msgid "We are glad you are using %1$s to build your website. We really appreciate it ! <br>We would like to request you to give us a 5 Star rating on %2$s. <br>It will greatly boost our motivation !"
+msgstr "We are glad you are using %1$s to build your website. We really appreciate it ! <br>We would like to request you to give us a 5 Star rating on %2$s. <br>It will greatly boost our motivation !"
+
+#: inc/popularfx-dashboard.php:62
+msgid "WooCommerce Builder"
+msgstr "WooCommerce Builder"
+
+#: inc/customizer.php:1313
+msgid "Word Spacing"
+msgstr "Word Spacing"
+
+#: inc/popularfx-dashboard.php:139
+msgid "You can report any bugs"
+msgstr "You can report any bugs"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#: inc/popularfx-dashboard.php:139
+msgid "here"
+msgstr "here"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+msgctxt "post author"
+msgid "by %s"
+msgstr "by %s"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Posted on %s"
+
+#: inc/popularfx-dashboard.php:84
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Pagelayer"
+msgstr "Pagelayer"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://pagelayer.com"
+msgstr "https://pagelayer.com"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://popularfx.com"
+msgstr "https://popularfx.com"

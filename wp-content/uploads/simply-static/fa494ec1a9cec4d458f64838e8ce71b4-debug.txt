@@ -589,3 +589,9 @@
 [2024-06-10 12:03:35] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
 [2024-06-10 12:03:35] [class-ss-archive-creation-job.php:197] Completing the job
 [2024-06-10 12:03:35] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:15
+[2024-06-10 19:36:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress
+[2024-06-10 19:36:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress
+[2024-06-10 19:36:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress
+[2024-06-10 19:36:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress
+[2024-06-10 19:36:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress
+[2024-06-10 19:36:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/MapleMark/wordpress
